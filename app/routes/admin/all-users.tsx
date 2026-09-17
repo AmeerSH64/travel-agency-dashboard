@@ -1,8 +1,12 @@
-import React from 'react'
+import { Header } from "../../../components"
 
 const AllUsers = () => {
   return (
-    <div>Users Table</div>
+    <main>
+      <Header title="Trips Page" desc="Check out our current users" />
+
+      All users page contents
+    </main>
   )
 }
 
